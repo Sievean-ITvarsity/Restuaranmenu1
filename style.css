@@ -1,0 +1,344 @@
+
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align:  center;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.body-home{
+    background-color: aquamarine;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-color: aquamarine;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-home p {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*======HEADER =======**/
+.header {
+    background-color: pink;
+    width: 100%;
+    top: 0;
+}
+ .header i {
+    float: left;
+    padding: 17px 0px 0px 17px ;
+    color: ffffff;
+ }
+
+ .header img {
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+
+ }
+
+
+
+
+/*======HOME PAGE =======**/
+#home-logo-img {
+    width: 10%;
+    display: block;
+    margin: auto;
+    
+}
+/*======HOME PAGE MENU ======**/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*======MEALS PAGE =======**/
+
+/*======MEALS PAGE MENU ======**/
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*======FOOD  PAGE =======**/
+#food{
+    padding-top: 50px;
+}
+
+/*======FOOD PAGE MENU ======**/
+.food-details img {
+    width: 30%
+
+}
+
+.food-details h1 {
+    font-size: 20px;
+    text-align: center;
+    border 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+
+}
+.food-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.food-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.food-details-steps {
+    padding-top: 20px;
+
+}
+
+.food-details-steps ol {
+ padding-left: 20px;
+}
+
+
+/*====== DESERTS  PAGE =======**/
+#desert {
+    padding-top: 50px;
+}
+
+/*======DESERTS PAGE MENU ======**/
+.desert-details img {
+    padding-top:5px;
+    width: 30%;
+}
+
+.desert-details h1 {
+    font-size: 20px;
+    text-align: center;
+    border 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+
+}
+.desert-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.desert-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.desert-details-steps {
+    padding-top: 20px;
+
+}
+
+.desert-details-steps ol {
+ padding-left: 20px;
+}
+
+
+/*====== DRINKS  PAGE =======**/
+#drinks {
+    padding-top: 50px;
+}
+
+/*======DRINKS PAGE MENU ======**/
+.drinks-details img {
+    width: 30%;
+}
+
+.drinks-details h1 {
+    font-size: 20px;
+    text-align: center;
+    border 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+
+}
+.drinks-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.drinks-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.drinks-details-steps {
+    padding-top: 20px;
+
+}
+
+.drinks-details-steps ol {
+ padding-left: 20px;
+}
+
+textarea {
+    width: 100%;
+    height:100%;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    background-color: #4d4d4d;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 8px 0;
+    width: 20%;
+}
+
+#tab-bottom {
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+}
+
+#tab-bottom a {
+    display: block;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+
+/*======RESPONSIVE LAYOUTS =====*/
+
+@media only screen and (min-width: 600px) {
+    #food {
+    width: 80%;
+    margin: auto;
+
+    #desert {
+        width: 80%;
+        margin: auto;
+
+}
+
+#drinks{
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (min-width:1000px) {
+    #food {
+    width: 60%;
+    margin: auto;
+
+    }
+
+    #drinks {
+        width: 60%;
+        margin: auto;
+    }
+
+     #deserts {
+     width: 60%;
+     margin: auto;
+           
+     }
+
+
+@media only screen and (min-width:1500px) {
+    #food {
+    width: 40%;
+    margin: auto;
+
+    }
+    #deserts {
+    width: 60%;
+     margin: auto;
+       
+     }
+    
+     #fdrinks {
+     width: 60%;
+     margin: auto;
+           
+     }
+
+@media only screen and (min-width:720px) {
+    .body-home {
+        background-color: aquamarine;
+    }
+    .body-meals {
+        background-color: aquamarine;
+    }
+}
+
+
+
+
+
